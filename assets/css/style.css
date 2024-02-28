@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#navBar{
+    background-color: #000f08;
+    /* height: 99px; */
+    padding: 10px 30px;
+}
+#navBar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 400;
+}
+#navBar ul li{
+    display: inline-block;
+    margin: 0 5px 10px 5px;
+}
+#navBar-brand{
+    padding-right: 30px;
+}
+
+header{
+    background-image: url("../img/bg-hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 52px;
+    padding-bottom: 179px;
+
+
+}
+#titulo-header, #subtitulo-header{
+    text-align: end;
+    color: white;
+}
+#titulo-header{
+    font-size: 60px;
+    font-weight: 800;
+}
+#subtitulo-header{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#we-work{
+    text-align: center;
+    padding-top: 153px;
+    padding-bottom: 131px;
+}
+#we-work img{
+    width: 519px;
+    height: 344px;
+}
+#we-work h2{
+    margin-top: 48px;
+    margin-bottom: 18px;
+}
+#we-work p{
+    font-size: 25px;
+}
+
+#proximas-charlas{
+    padding: 90px 0;
+    background-color: #A4452C;
+    color: white;
+}
+#proximas-charlas .wrapper-img{
+    display: inline-block;
+    width: 50%;
+    text-align: end;
+    padding-right: 60px;
+}
+#proximas-charlas .wrapper-texto{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    text-align: start;
+    padding-right: 35px;
+}
+#proximas-charlas .wrapper-texto h3{
+    font-size: 40px;
+}
+#proximas-charlas .wrapper-texto h4{
+    font-size: 33px;
+}
+#proximas-charlas .wrapper-texto small{
+    font-size: 20px;
+}
+#proximas-charlas .wrapper-texto p{
+    font-size: 25px;
+}
+
+#footer-principal{
+    color: white;
+    background-color: #000f08;
+    text-align: center;
+}
+#footer-principal p{
+    font-size: 25px;
+    font-weight: 400;
+}
+#footer-principal #wrapper-iconos{
+    font-size: 50px;
+}
